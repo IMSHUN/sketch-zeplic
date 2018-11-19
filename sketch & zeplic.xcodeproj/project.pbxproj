@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2957EB8E21A2EEE20074F36E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2957EB8D21A2EEE20074F36E /* AppDelegate.swift */; };
+		2957EB9021A2EEE20074F36E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2957EB8F21A2EEE20074F36E /* ViewController.swift */; };
+		2957EB9321A2EEE20074F36E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2957EB9121A2EEE20074F36E /* Main.storyboard */; };
+		2957EB9521A2EEE30074F36E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2957EB9421A2EEE30074F36E /* Assets.xcassets */; };
+		2957EB9821A2EEE30074F36E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2957EB9621A2EEE30074F36E /* LaunchScreen.storyboard */; };
+		2957EBA321A2EEE30074F36E /* sketch___zeplicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2957EBA221A2EEE30074F36E /* sketch___zeplicTests.swift */; };
+		2957EBAE21A2EEE30074F36E /* sketch___zeplicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2957EBAD21A2EEE30074F36E /* sketch___zeplicUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2957EB9F21A2EEE30074F36E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2957EB8221A2EEE20074F36E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2957EB8921A2EEE20074F36E;
+			remoteInfo = "sketch & zeplic";
+		};
+		2957EBAA21A2EEE30074F36E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2957EB8221A2EEE20074F36E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2957EB8921A2EEE20074F36E;
+			remoteInfo = "sketch & zeplic";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2957EB8A21A2EEE20074F36E /* sketch & zeplic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sketch & zeplic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2957EB8D21A2EEE20074F36E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2957EB8F21A2EEE20074F36E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2957EB9221A2EEE20074F36E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2957EB9421A2EEE30074F36E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2957EB9721A2EEE30074F36E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2957EB9921A2EEE30074F36E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2957EB9E21A2EEE30074F36E /* sketch & zeplicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sketch & zeplicTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2957EBA221A2EEE30074F36E /* sketch___zeplicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "sketch___zeplicTests.swift"; sourceTree = "<group>"; };
+		2957EBA421A2EEE30074F36E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2957EBA921A2EEE30074F36E /* sketch & zeplicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sketch & zeplicUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2957EBAD21A2EEE30074F36E /* sketch___zeplicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "sketch___zeplicUITests.swift"; sourceTree = "<group>"; };
+		2957EBAF21A2EEE30074F36E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2957EB8721A2EEE20074F36E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2957EB9B21A2EEE30074F36E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2957EBA621A2EEE30074F36E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2957EB8121A2EEE20074F36E = {
+			isa = PBXGroup;
+			children = (
+				2957EB8C21A2EEE20074F36E /* sketch & zeplic */,
+				2957EBA121A2EEE30074F36E /* sketch & zeplicTests */,
+				2957EBAC21A2EEE30074F36E /* sketch & zeplicUITests */,
+				2957EB8B21A2EEE20074F36E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2957EB8B21A2EEE20074F36E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2957EB8A21A2EEE20074F36E /* sketch & zeplic.app */,
+				2957EB9E21A2EEE30074F36E /* sketch & zeplicTests.xctest */,
+				2957EBA921A2EEE30074F36E /* sketch & zeplicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2957EB8C21A2EEE20074F36E /* sketch & zeplic */ = {
+			isa = PBXGroup;
+			children = (
+				2957EB8D21A2EEE20074F36E /* AppDelegate.swift */,
+				2957EB8F21A2EEE20074F36E /* ViewController.swift */,
+				2957EB9121A2EEE20074F36E /* Main.storyboard */,
+				2957EB9421A2EEE30074F36E /* Assets.xcassets */,
+				2957EB9621A2EEE30074F36E /* LaunchScreen.storyboard */,
+				2957EB9921A2EEE30074F36E /* Info.plist */,
+			);
+			path = "sketch & zeplic";
+			sourceTree = "<group>";
+		};
+		2957EBA121A2EEE30074F36E /* sketch & zeplicTests */ = {
+			isa = PBXGroup;
+			children = (
+				2957EBA221A2EEE30074F36E /* sketch___zeplicTests.swift */,
+				2957EBA421A2EEE30074F36E /* Info.plist */,
+			);
+			path = "sketch & zeplicTests";
+			sourceTree = "<group>";
+		};
+		2957EBAC21A2EEE30074F36E /* sketch & zeplicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2957EBAD21A2EEE30074F36E /* sketch___zeplicUITests.swift */,
+				2957EBAF21A2EEE30074F36E /* Info.plist */,
+			);
+			path = "sketch & zeplicUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2957EB8921A2EEE20074F36E /* sketch & zeplic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2957EBB221A2EEE30074F36E /* Build configuration list for PBXNativeTarget "sketch & zeplic" */;
+			buildPhases = (
+				2957EB8621A2EEE20074F36E /* Sources */,
+				2957EB8721A2EEE20074F36E /* Frameworks */,
+				2957EB8821A2EEE20074F36E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "sketch & zeplic";
+			productName = "sketch & zeplic";
+			productReference = 2957EB8A21A2EEE20074F36E /* sketch & zeplic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2957EB9D21A2EEE30074F36E /* sketch & zeplicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2957EBB521A2EEE30074F36E /* Build configuration list for PBXNativeTarget "sketch & zeplicTests" */;
+			buildPhases = (
+				2957EB9A21A2EEE30074F36E /* Sources */,
+				2957EB9B21A2EEE30074F36E /* Frameworks */,
+				2957EB9C21A2EEE30074F36E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2957EBA021A2EEE30074F36E /* PBXTargetDependency */,
+			);
+			name = "sketch & zeplicTests";
+			productName = "sketch & zeplicTests";
+			productReference = 2957EB9E21A2EEE30074F36E /* sketch & zeplicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2957EBA821A2EEE30074F36E /* sketch & zeplicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2957EBB821A2EEE30074F36E /* Build configuration list for PBXNativeTarget "sketch & zeplicUITests" */;
+			buildPhases = (
+				2957EBA521A2EEE30074F36E /* Sources */,
+				2957EBA621A2EEE30074F36E /* Frameworks */,
+				2957EBA721A2EEE30074F36E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2957EBAB21A2EEE30074F36E /* PBXTargetDependency */,
+			);
+			name = "sketch & zeplicUITests";
+			productName = "sketch & zeplicUITests";
+			productReference = 2957EBA921A2EEE30074F36E /* sketch & zeplicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2957EB8221A2EEE20074F36E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "林順天";
+				TargetAttributes = {
+					2957EB8921A2EEE20074F36E = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					2957EB9D21A2EEE30074F36E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 2957EB8921A2EEE20074F36E;
+					};
+					2957EBA821A2EEE30074F36E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 2957EB8921A2EEE20074F36E;
+					};
+				};
+			};
+			buildConfigurationList = 2957EB8521A2EEE20074F36E /* Build configuration list for PBXProject "sketch & zeplic" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2957EB8121A2EEE20074F36E;
+			productRefGroup = 2957EB8B21A2EEE20074F36E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2957EB8921A2EEE20074F36E /* sketch & zeplic */,
+				2957EB9D21A2EEE30074F36E /* sketch & zeplicTests */,
+				2957EBA821A2EEE30074F36E /* sketch & zeplicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2957EB8821A2EEE20074F36E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2957EB9821A2EEE30074F36E /* LaunchScreen.storyboard in Resources */,
+				2957EB9521A2EEE30074F36E /* Assets.xcassets in Resources */,
+				2957EB9321A2EEE20074F36E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2957EB9C21A2EEE30074F36E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2957EBA721A2EEE30074F36E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2957EB8621A2EEE20074F36E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2957EB9021A2EEE20074F36E /* ViewController.swift in Sources */,
+				2957EB8E21A2EEE20074F36E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2957EB9A21A2EEE30074F36E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2957EBA321A2EEE30074F36E /* sketch___zeplicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2957EBA521A2EEE30074F36E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2957EBAE21A2EEE30074F36E /* sketch___zeplicUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2957EBA021A2EEE30074F36E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2957EB8921A2EEE20074F36E /* sketch & zeplic */;
+			targetProxy = 2957EB9F21A2EEE30074F36E /* PBXContainerItemProxy */;
+		};
+		2957EBAB21A2EEE30074F36E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2957EB8921A2EEE20074F36E /* sketch & zeplic */;
+			targetProxy = 2957EBAA21A2EEE30074F36E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2957EB9121A2EEE20074F36E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2957EB9221A2EEE20074F36E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2957EB9621A2EEE30074F36E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2957EB9721A2EEE30074F36E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2957EBB021A2EEE30074F36E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2957EBB121A2EEE30074F36E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2957EBB321A2EEE30074F36E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DPF86C38WG;
+				INFOPLIST_FILE = "sketch & zeplic/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gogoro.sketch---zeplic";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2957EBB421A2EEE30074F36E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DPF86C38WG;
+				INFOPLIST_FILE = "sketch & zeplic/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gogoro.sketch---zeplic";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2957EBB621A2EEE30074F36E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DPF86C38WG;
+				INFOPLIST_FILE = "sketch & zeplicTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gogoro.sketch---zeplicTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sketch & zeplic.app/sketch & zeplic";
+			};
+			name = Debug;
+		};
+		2957EBB721A2EEE30074F36E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DPF86C38WG;
+				INFOPLIST_FILE = "sketch & zeplicTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gogoro.sketch---zeplicTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sketch & zeplic.app/sketch & zeplic";
+			};
+			name = Release;
+		};
+		2957EBB921A2EEE30074F36E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DPF86C38WG;
+				INFOPLIST_FILE = "sketch & zeplicUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gogoro.sketch---zeplicUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "sketch & zeplic";
+			};
+			name = Debug;
+		};
+		2957EBBA21A2EEE30074F36E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DPF86C38WG;
+				INFOPLIST_FILE = "sketch & zeplicUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gogoro.sketch---zeplicUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "sketch & zeplic";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2957EB8521A2EEE20074F36E /* Build configuration list for PBXProject "sketch & zeplic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2957EBB021A2EEE30074F36E /* Debug */,
+				2957EBB121A2EEE30074F36E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2957EBB221A2EEE30074F36E /* Build configuration list for PBXNativeTarget "sketch & zeplic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2957EBB321A2EEE30074F36E /* Debug */,
+				2957EBB421A2EEE30074F36E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2957EBB521A2EEE30074F36E /* Build configuration list for PBXNativeTarget "sketch & zeplicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2957EBB621A2EEE30074F36E /* Debug */,
+				2957EBB721A2EEE30074F36E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2957EBB821A2EEE30074F36E /* Build configuration list for PBXNativeTarget "sketch & zeplicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2957EBB921A2EEE30074F36E /* Debug */,
+				2957EBBA21A2EEE30074F36E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2957EB8221A2EEE20074F36E /* Project object */;
+}
